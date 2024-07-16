@@ -1,4 +1,4 @@
-# Google Indxing Api using Keyword to Index URL/Web
+# Google Indxing Api using Bulk Keyword to Submit Index URL/Web
 
 This script fetches keywords from a remote JSON file, processes them, and submits them to the Google Indexing API. It ensures that each keyword is only submitted once by maintaining a log file.
 
