@@ -1,4 +1,4 @@
-# Keyword Indexing Script
+# Google Indxing Api using Keyword to Index URL/Web
 
 This script fetches keywords from a remote JSON file, processes them, and submits them to the Google Indexing API. It ensures that each keyword is only submitted once by maintaining a log file.
 
@@ -7,7 +7,7 @@ This script fetches keywords from a remote JSON file, processes them, and submit
 - Node.js installed on your machine.
 - Google Cloud project with Indexing API enabled.
 - OAuth 2.0 credentials for your Google Cloud project.
-- Access to `output.json` containing keywords.
+- Access to `keywords.json` containing keywords.
 
 ## Setup
 
@@ -49,7 +49,7 @@ This script fetches keywords from a remote JSON file, processes them, and submit
 
 ### fetchKeywords()
 
-Fetches keywords from `output.json` located at `https://proxy.servyoutube.com/gtrends/keyword.json`.
+Fetches keywords from `keywords.json` located at `https://raw.githubusercontent.com/mughu94/Google-Indexing-API-2024/main/keywords.json`.
 
 ### isSubmitted(keyword)
 
