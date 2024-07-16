@@ -13,8 +13,8 @@ This script fetches keywords from a remote JSON file, processes them, and submit
 
 1. **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/keyword-indexing-script.git](https://github.com/mughu94/Google-Indexing-API-2024.git)
-    cd keyword-indexing-script
+    git clone https://github.com/mughu94/Google-Indexing-API-2024.git
+    cd Google-Indexing-API-2024
     ```
 
 2. **Install dependencies:**
@@ -49,7 +49,7 @@ This script fetches keywords from a remote JSON file, processes them, and submit
 
 ### fetchKeywords()
 
-Fetches keywords from `output.json` located at `https://proxy.servyoutube.com/gtrends/output.json`.
+Fetches keywords from `output.json` located at `https://proxy.servyoutube.com/gtrends/keyword.json`.
 
 ### isSubmitted(keyword)
 
