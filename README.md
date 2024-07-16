@@ -13,7 +13,7 @@ This script fetches keywords from a remote JSON file, processes them, and submit
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/keyword-indexing-script.git
+    git clone [https://github.com/your-username/keyword-indexing-script.git](https://github.com/mughu94/Google-Indexing-API-2024.git)
     cd keyword-indexing-script
     ```
 
