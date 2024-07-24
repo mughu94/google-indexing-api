@@ -103,7 +103,7 @@ async function processKeywords(auth) {
   for (const keyword of keywords) {
     const formattedKeyword = keyword.replace(/\s+/g, '-');
     if (!isSubmitted(formattedKeyword)) {
-      const urlToIndex = `https://otosection.co/${encodeURIComponent(formattedKeyword)}`;
+      const urlToIndex = `https://limawaktu.id/${encodeURIComponent(formattedKeyword)}`;
 
       const request = {
         'url': urlToIndex,
