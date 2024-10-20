@@ -13,7 +13,7 @@ const CLIENT_SECRET_PATH = path.join(__dirname, 'client_secret.json');
 // Function to fetch keywords from output.json
 async function fetchKeywords() {
   try {
-    const response = await axios.get('https://proxy.servyoutube.com/gtrends/output.json');
+    const response = await axios.get('keywords.json');
     return response.data;
   } catch (error) {
     console.error('Error fetching keywords:', error);
@@ -103,7 +103,7 @@ async function processKeywords(auth) {
   for (const keyword of keywords) {
     const formattedKeyword = keyword.replace(/\s+/g, '-');
     if (!isSubmitted(formattedKeyword)) {
-      const urlToIndex = `https://limawaktu.id/${encodeURIComponent(formattedKeyword)}`;
+      const urlToIndex = `https://mughu.id/${encodeURIComponent(formattedKeyword)}`;
 
       const request = {
         'url': urlToIndex,
